@@ -18,7 +18,7 @@ body {
 .projects,
 .jobs,
 .education {
-  margin-bottom: 60px;
+  margin-bottom: 55px;
 }
 
 .right-side {
@@ -82,14 +82,14 @@ body {
 .education-degree {
   color: #2a2a2a;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 .jobs-time,
 .education-time {
   color: #828282;
   font-size: 12px;
-  line-height: 2;
+  line-height: 1.2;
 }
 
 .clause {
