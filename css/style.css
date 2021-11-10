@@ -146,18 +146,21 @@ body {
 .photo,
 .contacts,
 .skills,
+.project,
 .widget {
   margin-bottom: 60px;
 }
 
 .contacts,
 .skills,
+.project,
 .widget {
   padding-left: 40px;
 }
 
 .contacts-title,
-.skills-title {
+.skills-title,
+.project-title {
   color: #ffffff;
   font-family: Montserrat;
   font-size: 22px;
@@ -165,7 +168,8 @@ body {
   line-height: 24px;
 }
 
-.contacts-list {
+.contacts-list,
+.project-title {
   list-style: none;
   padding-left: 0;
 }
@@ -177,13 +181,15 @@ body {
   color: #ffffff;
 }
 
-.contacts-link {
+.contacts-link,
+.project-link {
   opacity: 0.6;
   color: #ffffff;
   text-decoration: none;
 }
 
-.contacts-link:hover {
+.contacts-link:hover,
+.project-link:hover {
   opacity: 1;
   text-decoration: underline;
 }
