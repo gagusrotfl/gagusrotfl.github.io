@@ -117,22 +117,26 @@ body {
   color: #fff;
 }
 
-.skills-title {
+.skills-title,
+.courses-title {
   font-size: 22px;
   line-height: 1.091;
 }
 
-.skills-item {
+.skills-item,
+.courses-item {
   font-size: 14px;
   line-height: 1.714;
 }
 
-.skills-list {
+.skills-list,
+.courses-list {
   list-style: none;
   padding-left: 0;
 }
 
-.skills-item::before {
+.skills-item::before,
+.courses-item::before {
   content: "\2022";
   margin-right: 8px;
   color: #ff6b08;
@@ -147,6 +151,7 @@ body {
 .contacts,
 .skills,
 .project,
+.courses,
 .widget {
   margin-bottom: 60px;
 }
@@ -154,13 +159,15 @@ body {
 .contacts,
 .skills,
 .project,
+.courses,
 .widget {
   padding-left: 40px;
 }
 
 .contacts-title,
 .skills-title,
-.project-title {
+.project-title,
+.courses-title {
   color: #ffffff;
   font-family: Montserrat;
   font-size: 22px;
@@ -182,14 +189,16 @@ body {
 }
 
 .contacts-link,
-.project-link {
+.project-link,
+.courses-link {
   opacity: 0.6;
   color: #ffffff;
   text-decoration: none;
 }
 
 .contacts-link:hover,
-.project-link:hover {
+.project-link:hover,
+.courses-link:hover {
   opacity: 1;
   text-decoration: underline;
 }
