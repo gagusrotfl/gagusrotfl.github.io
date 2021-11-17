@@ -22,7 +22,7 @@ body {
 
 .education {
   margin-top: 50px;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 .right-side {
@@ -77,7 +77,8 @@ body {
 }
 
 .jobs-title,
-.education-title {
+.education-title,
+.courses-title {
   color: #2a2a2a;
   font-size: 22px;
   line-height: 1.091;
@@ -101,9 +102,12 @@ body {
   color: #999898;
   font-size: 12px;
   line-height: 1.5;
+  margin-top: 80px;
+  margin-block-end: auto;
 }
 
-.experience-item {
+.experience-item,
+.courses-item {
   color: #595959;
   font-size: 14px;
   line-height: 1.714;
@@ -121,26 +125,22 @@ body {
   color: #fff;
 }
 
-.skills-title,
-.courses-title {
+.skills-title {
   font-size: 22px;
   line-height: 1.091;
 }
 
-.skills-item,
-.courses-item {
+.skills-item {
   font-size: 14px;
   line-height: 1.714;
 }
 
-.skills-list,
-.courses-list {
+.skills-list {
   list-style: none;
   padding-left: 0;
 }
 
-.skills-item::before,
-.courses-item::before {
+.skills-item::before {
   content: "\2022";
   margin-right: 8px;
   color: #ff6b08;
@@ -155,7 +155,6 @@ body {
 .contacts,
 .skills,
 .project,
-.courses,
 .widget {
   margin-bottom: 60px;
 }
@@ -163,15 +162,13 @@ body {
 .contacts,
 .skills,
 .project,
-.courses,
 .widget {
   padding-left: 40px;
 }
 
 .contacts-title,
 .skills-title,
-.project-title,
-.courses-title {
+.project-title {
   color: #ffffff;
   font-family: Montserrat;
   font-size: 22px;
@@ -193,16 +190,14 @@ body {
 }
 
 .contacts-link,
-.project-link,
-.courses-link {
+.project-link {
   opacity: 0.6;
   color: #ffffff;
   text-decoration: none;
 }
 
 .contacts-link:hover,
-.project-link:hover,
-.courses-link:hover {
+.project-link:hover {
   opacity: 1;
   text-decoration: underline;
 }
